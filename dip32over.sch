@@ -1,0 +1,206 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	4150 3500 5500 3500
+Wire Wire Line
+	4150 3200 5500 3200
+Wire Wire Line
+	5500 3100 4150 3100
+Wire Wire Line
+	4150 2800 5500 2800
+Wire Wire Line
+	4150 2200 5500 2200
+Wire Wire Line
+	4150 2300 5500 2300
+Wire Wire Line
+	4150 2100 5500 2100
+Wire Wire Line
+	4150 2000 5500 2000
+Wire Wire Line
+	4150 1900 5500 1900
+Wire Wire Line
+	5500 1800 4150 1800
+Wire Wire Line
+	4150 1700 5500 1700
+Wire Wire Line
+	5500 1600 4150 1600
+Wire Wire Line
+	5900 3900 3750 3900
+Wire Wire Line
+	5500 3600 4150 3600
+Wire Wire Line
+	4150 2600 5500 2600
+Wire Wire Line
+	5500 3700 4150 3700
+Wire Wire Line
+	4150 2700 5500 2700
+Wire Wire Line
+	5500 2500 4150 2500
+Wire Wire Line
+	4150 2400 5500 2400
+Wire Wire Line
+	5500 2900 4150 2900
+Wire Wire Line
+	4150 3000 5500 3000
+$Comp
+L Memory_EPROM:27C020 U2
+U 1 1 63FDF64D
+P 5900 2600
+F 0 "U2" H 5900 4081 50  0000 C CNN
+F 1 "27C020" H 5900 3990 50  0000 C CNN
+F 2 "Package_DIP:DIP-32_W15.24mm_Socket_LongPads" H 5900 2600 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/devicedoc/doc0570.pdf" H 5900 2600 50  0001 C CNN
+	1    5900 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Memory_EPROM:27C020 U1
+U 1 1 63FE3D38
+P 3750 2600
+F 0 "U1" H 3750 4081 50  0000 C CNN
+F 1 "27C020" H 3750 3990 50  0000 C CNN
+F 2 "Package_DIP:DIP-32_W15.24mm_Socket_LongPads" H 3750 2600 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/devicedoc/doc0570.pdf" H 3750 2600 50  0001 C CNN
+	1    3750 2600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 1500 5500 1500
+Wire Wire Line
+	5500 3400 4150 3400
+Wire Wire Line
+	5900 1300 3750 1300
+Wire Wire Line
+	3350 1500 3350 1200
+Wire Wire Line
+	3350 1200 6400 1200
+Wire Wire Line
+	6400 1200 6400 1500
+Wire Wire Line
+	6400 1500 6300 1500
+Wire Wire Line
+	3350 1600 3300 1600
+Wire Wire Line
+	3300 1600 3300 1150
+Wire Wire Line
+	3300 1150 6450 1150
+Wire Wire Line
+	6450 1150 6450 1600
+Wire Wire Line
+	6450 1600 6300 1600
+Wire Wire Line
+	3350 1700 3250 1700
+Wire Wire Line
+	3250 1700 3250 1100
+Wire Wire Line
+	3250 1100 6500 1100
+Wire Wire Line
+	6500 1100 6500 1700
+Wire Wire Line
+	6500 1700 6300 1700
+Wire Wire Line
+	3350 1800 3200 1800
+Wire Wire Line
+	3200 1800 3200 1050
+Wire Wire Line
+	3200 1050 6550 1050
+Wire Wire Line
+	6550 1050 6550 1800
+Wire Wire Line
+	6550 1800 6300 1800
+Wire Wire Line
+	3350 1900 3150 1900
+Wire Wire Line
+	3150 1900 3150 1000
+Wire Wire Line
+	3150 1000 6600 1000
+Wire Wire Line
+	6600 1000 6600 1900
+Wire Wire Line
+	6600 1900 6300 1900
+Wire Wire Line
+	3350 2000 3100 2000
+Wire Wire Line
+	3100 2000 3100 950 
+Wire Wire Line
+	3100 950  6650 950 
+Wire Wire Line
+	6650 950  6650 2000
+Wire Wire Line
+	6650 2000 6300 2000
+Wire Wire Line
+	3350 2100 3050 2100
+Wire Wire Line
+	3050 2100 3050 900 
+Wire Wire Line
+	3050 900  6700 900 
+Wire Wire Line
+	6700 900  6700 2100
+Wire Wire Line
+	6700 2100 6300 2100
+Wire Wire Line
+	3350 2200 3000 2200
+Wire Wire Line
+	3000 2200 3000 850 
+Wire Wire Line
+	3000 850  6750 850 
+Wire Wire Line
+	6750 850  6750 2200
+Wire Wire Line
+	6750 2200 6300 2200
+$Comp
+L pspice:C C1
+U 1 1 63FF0EAE
+P 7000 2500
+F 0 "C1" H 7178 2546 50  0000 L CNN
+F 1 "C" H 7178 2455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7000 2500 50  0001 C CNN
+F 3 "~" H 7000 2500 50  0001 C CNN
+	1    7000 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 1300 7000 1300
+Wire Wire Line
+	7000 1300 7000 2250
+Connection ~ 5900 1300
+Wire Wire Line
+	7000 3900 7000 2750
+$Comp
+L pspice:C C2
+U 1 1 63FF6085
+P 7400 2500
+F 0 "C2" H 7578 2546 50  0000 L CNN
+F 1 "C" H 7578 2455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7400 2500 50  0001 C CNN
+F 3 "~" H 7400 2500 50  0001 C CNN
+	1    7400 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 1300 7400 1300
+Wire Wire Line
+	7400 1300 7400 2250
+Connection ~ 7000 1300
+Wire Wire Line
+	7400 2750 7400 3900
+Wire Wire Line
+	7400 3900 7000 3900
+Connection ~ 7000 3900
+Wire Wire Line
+	5900 3900 7000 3900
+Connection ~ 5900 3900
+$EndSCHEMATC
